@@ -1,0 +1,14 @@
+/* In your App.css or a separate CSS file */
+
+  
+@media (max-width: 767px) { /* Adjust breakpoint as needed */
+    .hero-section h1 {
+      font-size: 2rem; /* Adjust font size for mobile */
+    }
+    .hero-section p {
+      font-size: 1rem; /* Adjust font size for mobile */
+    }
+    .illustrations img {
+      margin-bottom: 1rem; /* Add spacing between illustrations on mobile */
+    }
+  }

@@ -1,0 +1,35 @@
+.footer {
+    background-color: #f0f0f0; /* Light background color */
+    padding: 2rem 0; /* Add padding */
+  }
+  
+  .footer-logo img {
+    height: 30px; /* Adjust logo size */
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-section a {
+    color: #333; /* Dark text color */
+    text-decoration: none;
+  }
+  
+  .social-icons a {
+    margin: 0 0.5rem; /* Spacing between icons */
+  }
+  
+  .social-icons i {
+    font-size: 1.2rem; /* Adjust icon size */
+  }
+  
+  .copyright {
+    font-size: 0.8rem; /* Smaller font size for copyright */
+  }
+  

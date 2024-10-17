@@ -1,0 +1,59 @@
+.spri-container {
+    padding: 50px 0;
+    background-color: #0d1b2a; /* Dark background similar to the image */
+    text-align: center;
+  }
+  
+  .spri-header h2 {
+    font-size: 2.5rem;
+    color: white;
+  }
+  
+  .spri-header span {
+    color: #40c087; /* Greenish color for "Spri" text */
+  }
+  
+  .spri-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card-item {
+    margin: 20px 0;
+  }
+  
+  .card-item .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .card-item h4 {
+    color: #40c087; /* Title color for the cards */
+    margin-bottom: 10px;
+  }
+  
+  .card-content img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .spri-header h2 {
+      font-size: 1.8rem;
+    }
+  
+    .card-item {
+      text-align: center;
+    }
+  
+    .card-content img {
+      max-width: 150px;
+    }
+  }
+  

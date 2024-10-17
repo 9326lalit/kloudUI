@@ -1,0 +1,126 @@
+/* Container Styles */
+.insights-container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Header Section */
+.insights-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.insights-header h1 {
+  font-size: 2.5rem;
+}
+
+.view-all-btn {
+  background-color: #0b454d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.view-all-btn:hover {
+  background-color: #08494b;
+}
+
+/* Grid Layout for Insights */
+.insights-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns on desktop */
+  gap: 20px;
+}
+
+/* Individual Card Styling */
+.insight-card {
+  background-color: #f7f7f7;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  
+}
+
+.insight-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Styling */
+.insight-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  background-color: light-pink;
+  padding: 10px;
+}
+
+/* Text content inside the insight card */
+.insight-text {
+  padding: 20px;
+  background-color: #0b454d;
+  border-radius: 0 0 15px 15px;
+  height: 200px;
+}
+
+.insight-text h3 {
+  color: white;
+  margin: 10px 0;
+}
+
+.insight-category {
+  color: #2b3d35;
+  font-weight: bold;
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.read-time {
+  color: #ccc;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* For Tablets */
+  .insights-grid {
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+  }
+
+  .insights-header h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For Mobile */
+  .insights-grid {
+    grid-template-columns: 1fr; /* Single column */
+  }
+
+  .insights-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .view-all-btn {
+    padding: 8px 16px;
+    font-size: 1rem;
+  }
+
+  .insight-text h3 {
+    font-size: 18px;
+  }
+
+  .insight-category {
+    font-size: 14px;
+  }
+
+  .read-time {
+    font-size: 12px;
+  }
+}
